@@ -5,10 +5,9 @@ on:
     branches: [main]
 
 jobs:
-
   test:
     name: Test
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
 
     steps:
       - uses: action/checkout@v3
